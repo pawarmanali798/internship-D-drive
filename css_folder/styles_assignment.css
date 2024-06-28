@@ -1,0 +1,10 @@
+.child{
+    height:500px;
+    width:500px;
+    background-color: blue;
+    margin-left:300px;
+   margin-top:300px;
+}
+.child:nth-child(){
+    position:relative
+}

@@ -1,0 +1,35 @@
+body{
+    margin:0px;
+}
+
+.container{
+
+    background-color: black;
+    margin:0px;
+    padding:24px;
+
+
+}
+.child{
+    padding:24px;
+    margin:8px;
+    border:thin solid black;
+
+}
+.child:nth-child(1){
+    background-color:red ;
+    width:75px;
+    height:75px;
+    padding:4px
+
+}
+.child:nth-child(2){
+    background-color:green ;
+}
+.child:nth-child(3){
+    background-color:blue ;
+}
+.child:nth-child(4){
+    background-color:yellow ;
+    
+}
